@@ -178,4 +178,4 @@ try:
 
 except Exception as e:
     print(e)
-    print("Please enter carefully.")
+    print("Please enter carefully and try again.")
