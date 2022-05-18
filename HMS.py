@@ -43,8 +43,9 @@ try:
         f.close()
     else:
         print("Invalid Input")
-except Exception as e:
-    print("Wrong input")
+        
+except KeyboardInterrupt as e:
+    print("Program ended unexpectely")
 
 
 
